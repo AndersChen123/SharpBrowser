@@ -146,7 +146,6 @@ namespace SharpBrowser {
 
 			//CefSharpSettings.LegacyJavascriptBindingEnabled = true;
 			
-			Cef.EnableHighDPISupport();
 			CefSettings settings = new CefSettings();
 
 			settings.RegisterScheme(new CefCustomScheme {
